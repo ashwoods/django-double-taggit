@@ -1,0 +1,56 @@
+django-taggit-tag-it
+========================================================================
+
+
+Django-taggit-tag-it is a django-taggit-autocomplete-modified fork that provides jquery autocomplete
+and jquery-ui tag-it funcionality
+
+Licensed under the *Apache License version 2.0*. More licensing information
+exists in the license_ section.
+
+_ *django-taggit-tag-it* is a fork of 'django-tagging-autocomplete-modified'
+- *django-taggit-autocomplete-modified* is based on `django-tagging-autocomplete-modified`_
+- *django-taggit-autocomplete-modified* is based on `django-taggit-autocomplete`_
+
+.. _`django-tagging-autocomplete-modified`: https://source.codetrax.org/hgroot/django-tagging-autocomplete-modified/
+.. _`django-taggit-autocomplete`: https://github.com/Jaza/django-taggit-autocomplete
+
+
+Features
+========
+
+- Provides autocomplete functionality for the *tags* fields in the administration
+  interface.
+- Works out of the box. Requires minimal configuration.
+- Supports custom Tag model.
+- Supports jquery.ui tag-it!
+
+
+Documentation
+=============
+
+Apart from the `django-taggit-autocomplete-modified Online Documentation`_, more information about the
+installation, configuration and usage of this application may be available
+at the project's wiki_.
+
+.. _`django-taggit-autocomplete-modified Online Documentation`: http://packages.python.org/django-taggit-autocomplete-modified
+.. _wiki: http://www.codetrax.org/projects/django-taggit-autocomplete-modified/wiki
+
+
+License
+=======
+
+Copyright Ashley Camba
+
+Licensed under the *Apache License, Version 2.0* (the "*License*");
+you may not use this file except in compliance with the License.
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+A copy of the License exists in the product distribution; the *LICENSE* file.
+For copyright and other important notes regarding this release please read
+the *NOTICE* file.
