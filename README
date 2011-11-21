@@ -1,6 +1,7 @@
 django-taggit-tag-it
 ========================================================================
 
+Code is mega alpha, it works, but its ugly and will probably break easily.
 
 Django-taggit-tag-it is a django-taggit-autocomplete-modified fork that provides jquery autocomplete
 and jquery-ui tag-it funcionality
