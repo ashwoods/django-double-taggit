@@ -4,7 +4,10 @@
 .code_swarm
 .coverage
 .idea
+.hg
 build
 src
 dist
 *.egg
+*.egg-info
+*.hgtags

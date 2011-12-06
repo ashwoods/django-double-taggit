@@ -13,7 +13,7 @@ def read(fname):
 
 if __name__=='__main__':
     setup(
-        name = 'django-taggit-tag-it',
+        name = 'django-double-taggit',
         version = "0.1",
         license = 'Apache License version 2',
         long_description = read('README'),
