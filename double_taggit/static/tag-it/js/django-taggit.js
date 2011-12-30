@@ -6,6 +6,6 @@
             availableTags: $.djTagit.data
          });
     });
-})(jQuery);
+})(django.jquery);
 
 

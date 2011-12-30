@@ -52,13 +52,12 @@ class TagAutocomplete(Input):
             'all': ('%stag-it/css/jquery.tagit.css' % settings.STATIC_URL,)
         }
         js = (
-            "http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js",
-            "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js",
+            "%sjquery-ui.min.js" % settings.STATIC_URL,
             "%stag-it/js/tag-it.js" % settings.STATIC_URL,
             "%stag-it/js/django-taggit.js" % settings.STATIC_URL,
 
         )
-    
+
     def render(self, name, value, attrs=None):
         if value is not None and not isinstance(value, basestring):
             # value contains a list a TaggedItem instances
@@ -68,4 +67,4 @@ class TagAutocomplete(Input):
         html = super(TagAutocomplete, self).render(name, value, attrs)
 
         return mark_safe("\n".join([html,]))
-    
+

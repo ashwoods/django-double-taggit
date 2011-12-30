@@ -51,7 +51,7 @@
             //
             // The easiest way to use singleField is to just instantiate tag-it
             // on an INPUT element, in which case singleField is automatically
-            // set to true, and singleFieldNode is set to that element. This 
+            // set to true, and singleFieldNode is set to that element. This
             // way, you don't need to fiddle with these options.
             singleField: false,
 
@@ -63,7 +63,7 @@
             // delimited by singleFieldDelimiter.
             //
             // If this is not set, we create an input node for it,
-            // with the name given in settings.fieldName, 
+            // with the name given in settings.fieldName,
             // ignoring settings.itemName.
             singleFieldNode: null,
 
@@ -207,7 +207,7 @@
                     // Create a tag when the element loses focus (unless it's empty).
                     that.createTag(that._cleanedInput());
                 });
-                
+
 
             // Autocomplete.
             if (this.options.availableTags || this.options.tagSource) {
@@ -347,7 +347,7 @@
             // insert tag
             this._tagInput.parent().before(tag);
         },
-        
+
         removeTag: function(tag, animate) {
             animate = animate || this.options.animate;
 
@@ -383,6 +383,6 @@
 
     });
 
-})(jQuery);
+})(django.jQuery);
 
 
