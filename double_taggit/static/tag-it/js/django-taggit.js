@@ -1,11 +1,11 @@
 (function($) {
-    $.djTagit = {};
+    Tagit = {};
     $.get('/double-taggit/json', function(data) {
-      $.djTagit.data = data;
+      Tagit.data = data;
          $(".taggit").tagit({
-            availableTags: $.djTagit.data
+            availableTags: Tagit.data
          });
     });
-})(django.jquery);
+})(django.jQuery);
 
 

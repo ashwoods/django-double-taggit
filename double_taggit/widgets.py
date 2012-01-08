@@ -49,12 +49,16 @@ class TagAutocomplete(Input):
 
     class Media:
         css = {
-            'all': ('%stag-it/css/jquery.tagit.css' % settings.STATIC_URL,)
+            'all': (
+                'tag-it/css/jquery.tagit.css',
+                'tag-it/css/jquery-ui.css',
+            ),
+
         }
         js = (
-            "%sjquery-ui.min.js" % settings.STATIC_URL,
-            "%stag-it/js/tag-it.js" % settings.STATIC_URL,
-            "%stag-it/js/django-taggit.js" % settings.STATIC_URL,
+            "tag-it/jquery-ui.min.js",
+            "tag-it/js/tag-it.js",
+            "tag-it/js/django-taggit.js",
 
         )
 
