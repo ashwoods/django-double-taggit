@@ -6,6 +6,6 @@
             availableTags: Tagit.data
          });
     });
-})(django.jQuery);
+})(jQuery);
 
 

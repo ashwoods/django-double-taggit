@@ -383,6 +383,6 @@
 
     });
 
-})(django.jQuery);
+})(jQuery);
 
 

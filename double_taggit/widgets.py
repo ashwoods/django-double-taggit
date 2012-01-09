@@ -51,12 +51,13 @@ class TagAutocomplete(Input):
         css = {
             'all': (
                 'tag-it/css/jquery.tagit.css',
-                'tag-it/css/jquery-ui.css',
+               'http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/flick/jquery-ui.css',
             ),
 
         }
         js = (
-            "tag-it/jquery-ui.min.js",
+            "tag-it/js/jquery-1.7.1.min.js",
+            "tag-it/js/jquery-ui.min.js",
             "tag-it/js/tag-it.js",
             "tag-it/js/django-taggit.js",
 
